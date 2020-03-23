@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family:'Quicksand', sans-serif;
+    background: rgb(170, 167, 167);
+}
+
+h2{
+    color: orange;
+}    
+
+h3{
+    color: #565656;
+    background: #cccccc;
+} 
+#cabecalho{
+    background: orange;
+    text-align: center;
+      
+}
+
+#logo, #menu{
+    padding:  10px;
+}
+
+#logo{
+    color: rgb(44, 42, 42);
+    font-size: 2.5em;
+}
+
+#blog{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    
+}
+ a:link, a:visited{
+    
+}
+
+ a:hover{
+    text-decoration: underline;
+    
+}
+
+#cabecalho a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+#cabecalho a:link,#cabecalho a:visited{
+    color: white;
+}
+
+#cabecalho a:hover{
+    color: orange;
+    background: white;
+    
+}
+
+#mainArea{
+    background: whitesmoke;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#posts{
+    background: white;
+    width: 660px;
+    float: left;
+    margin: 15px 3px;
+}
+
+#sideArea{
+
+    width: 240px;
+    float: right;
+    margin: 15px 3px;
+    
+}
+
+.sideContent{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidePost{
+    background: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom:  1px dotted #cccccc;
+}
+
+#footer{
+    background: hotpink;
+    clear: both;
+    text-align: center;
+}
+
+.postagem{
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.datePost{
+    font-size: 0.8em; 
+    margin-bottom: 7px;
+    display: block;   
+}
+
